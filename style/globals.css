@@ -12,6 +12,7 @@
   --dark-gray: #3A3A3A;
   
   --white: #ffffff;
+  --black: #000000;
 
 
 /* site fonts */
@@ -34,4 +35,5 @@ html{
 
 body {
   background-color: var(--white);
+  font-family: var(--main-font);
 }

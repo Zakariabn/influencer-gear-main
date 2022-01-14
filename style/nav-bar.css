@@ -1,0 +1,41 @@
+.nav-area {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5.43rem 1rem 0rem;
+  margin-bottom: 3.75rem;
+  font-weight: 600;
+}
+.nav-bar .nav-left{
+
+}
+.nav-bar .logo h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+}
+
+.nav-bar .nav-right{
+  display: flex;
+}
+.nav-bar .nav-right .flex-container{
+  display: flex;
+  list-style: none;
+  padding: 0 1rem;
+}
+.nav-bar .nav-right .nav-item{
+  padding: 0 1rem;
+}
+.nav-bar .nav-right span .nav-item{
+  color: var(--black);
+}
+.nav-bar .nav-right .nav-item .nav-link{
+  color: var(--dark-blue);
+  text-decoration: none;
+}
