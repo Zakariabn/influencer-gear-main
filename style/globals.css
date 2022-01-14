@@ -1,13 +1,29 @@
 :root {
 /* color palet */
-  --bg-color: #fff;
+  --main-color: #E02C6D;
+  --orange: #FB8200;
+
+  --dark-blue: #0A0826;
+  --very-dark-blue: #18191F;
+  --grayesh-blue: #787885;
+
+  --gray: #6C6C6C;
+  --light-gray: #787885;
+  --dark-gray: #3A3A3A;
+  
+  --white: #ffffff;
+
 
 /* site fonts */
-  --main-font: ;
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+  --number-font: 'Roboto', sans-serif;
 }
+
 html{
   font-size: 100%;
 }
+
 *,
 *::before,
 *::after {
@@ -15,6 +31,7 @@ html{
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: var(--bg-color);
+  background-color: var(--white);
 }
