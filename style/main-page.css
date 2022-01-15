@@ -211,7 +211,9 @@
 /* popular collection section style end hear */
 
 .customer-support {
+  justify-content: center;
   margin-bottom: 3.75rem;
+
 }
 .customer-support .container {
   display: flex;
