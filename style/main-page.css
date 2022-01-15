@@ -210,5 +210,37 @@
 }
 /* popular collection section style end hear */
 
+.customer-support {
+  margin-bottom: 3.75rem;
+}
+.customer-support .container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  
+}
+.customer-support .visual {
+  margin-bottom: 2rem;
+}
+.customer-support .visual img {
+  width: 100%;
+  border-radius: 1rem 0 1rem 0;
+}
+.customer-support .content {
+  text-align: center;
+  
+}
+.customer-support .content  h2{
+  font-weight: 600;
+  margin-bottom: .2rem;
+}
 
-
+@media (min-width: 1200px) {
+  .customer-support {
+    display: flex;
+    justify-content: center;
+  }
+  .customer-support .container {
+    max-width: var(--max-width-main);
+  }
+}
