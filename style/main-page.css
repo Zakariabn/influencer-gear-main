@@ -1,0 +1,214 @@
+/*hero section style start frome hear*/
+.hero {
+  margin-bottom: 3.3rem;
+}
+.hero .flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.68rem;
+  max-width: 100vw;
+}
+.hero .flex-container .visual{
+  order: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.313rem;
+}
+.hero .flex-container .visual img{
+  width: 65%;
+}
+
+.hero .flex-container .content{
+  order: 2;
+}
+.hero .flex-container .content{
+  text-align: center;
+}
+.content .main-title {
+  font-size: 1.7rem;
+  font-weight: 700rem;
+  word-wrap: normal;
+  max-width: 100vw;
+  margin-bottom: 1.43rem;
+}
+.content .disc {
+  font-size: .875rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+  margin-bottom: 1.688rem;
+}
+.preebook-btn .fas{
+  margin-left: 1rem;
+  transition: transform .3s ease-out;
+}
+.preebook-btn {
+  padding: 1.068rem 1.5rem;
+  border-radius: 30px;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.preebook-btn:hover .fas {
+  transform: translate(10px);
+}
+
+@media (min-width: 481px) {
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content .disc {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+@media (min-width: 769px) {
+
+  .hero .flex-container{
+    flex-direction: row;
+  }
+  .hero .flex-container .content{
+    order: 1;
+    text-align: left;
+  }
+  .preebook-btn {
+    padding: .5rem 1.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .flex-container {
+    max-width: 1200px;
+    justify-content: center;
+  }
+}
+
+/* hero section style end hear */
+
+/*brand section desigh start frome hear*/
+.brand {
+  margin-bottom: 3.75rem;
+}
+.brand .brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.brand .brand-logo-container .brand-logo {
+  width: auto;
+  margin: 1.37rem 1rem;
+} 
+@media (min-width: 769px) {
+  .brand-logo-container {
+    border-top: 1px solid var(--shadow-color);
+    border-bottom: 1px solid var(--shadow-color);
+  } 
+}
+@media (min-width: 1200px) {
+  .brand {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* brand section design end hear */
+
+/* popular product design start from hear */
+.popular-collection .grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+  margin: 0 1rem;
+}
+.product-card {
+  justify-self: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 0.875rem;
+}
+.product-card img {
+  width: 100%;
+}
+.product-details .product-name{
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: .5rem;
+  color: var(--very-dark-blue);
+}
+.product-details .product-price{
+  font-family: var(--number-font);
+}
+.product-rating {
+  color: var(--orange);
+  font-size: 0.680rem;
+  margin: 19px 0;
+}
+.product-rating .rating{
+  color: var(--gray);
+  font-family: var(--number-font);
+  font-size: .875rem;
+  font-weight: 500;
+  margin-left: .7rem;
+}
+.Services {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  color: var(--gray);
+  letter-spacing: .1px;
+  line-height: 1.4;
+}
+.button {
+  display: flex;
+  justify-content: end;
+  margin: 2rem 1rem 3.35rem 0rem;
+}
+.button .see-more-btn {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.button .see-more-btn i{
+  margin-left: .3rem;
+  transition: transform .2s ease;
+}
+.button .see-more-btn:hover i{
+  transform: translateX(10px);
+}
+
+
+
+@media (min-width: 586px) {
+  .popular-collection .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: stretch;
+    grid-gap: 2rem;
+    margin: 0 1rem;
+  }
+}
+@media (min-width: 769px) {
+  .popular-collection .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .popular-collection {
+    display: flex;
+    justify-content: center;
+  }
+  .popular-collection .container {
+    max-width: 1200px;
+  }
+}
+/* popular collection section style end hear */
+
+
+

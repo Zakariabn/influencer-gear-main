@@ -15,310 +15,281 @@
 
   <!-- stylesheet added hear -->
   <link rel="stylesheet" href="./style/globals.css">
-  <link rel="stylesheet" href="./style/nav-bar.css">
+  <link rel="stylesheet" href="./style/nav-ba0r.css">
   <link rel="stylesheet" href="./style/main-page.css">
   <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
   <header class="nav-area">
     <nav class="nav-bar">
-       <div class="logo nav-left"><h1>Influencer Products</h1></div>
+       <div class="logo nav-left">
+         <label for="cheakbox">
+           <input type="checkbox" name="checkbox" id="check">
+         </label>
+         <h1>Influencer Products</h1>
+       </div>
 
-       <div class="nav-items nav-right"> 
-        <ul class="flex-container">
+       <div class="nav-right"> 
+        <ul class="nav-items flex-container">
           <li class="nav-item"><a href="" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="" class="nav-link">Products</a></li>
           <li class="nav-item"><a href="" class="nav-link">Sign up</a></li>
           <li class="nav-item"><a href="" class="nav-link">Log in</a></li>
+          <li class="nav-item search-button">
+            <a href="" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
         </ul>
-        <span>
-          <i class="nav-item fa-solid fa-magnifying-glass"></i>
-          <i class="nav-item fa-solid fa-cart-shopping"></i>
-        </span>
        </div> 
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="left-site content">
-        <article>
-          <header class="main-title">
-            <h1>Start your Journey as Influencer</h1>
-          </header>
-
-          <p class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat aliquid voluptatem iusto ratione tempora qui provident perferendis dignissimos exercitationem.</p>
-        </article>
-        <button class="btn preebook-btn">Preebook now</button>
-      </div>
-
-      <div class="left-site visual">
-        <span class="product-img">
-          <img src="./asset/images/main-camera.png" alt="Camera with lanch">
-        </span>
+      <div class="flex-container">
+        <div class="content flex-item">
+          <article>
+            <header class="main-title">
+              <h1>Start your Journey as Influencer</h1>
+            </header>
+  
+            <p class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat aliquid voluptatem iusto ratione tempora qui provident perferendis dignissimos exercitationem.</p>
+          </article>
+          <button class="btn preebook-btn">Preebook now <i class="fas fa-arrow-right"></i></button>
+        </div>
+  
+        <div class="visual">
+            <img src="./asset/images/main-camera.png" alt="Camera with lanch" class="product-img">
+        </div>
       </div>
     </section>
 
-    <section class="available-place">
+    <section class="brand">
+      <div class="brand-logo-container">
       <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
-      <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
-      <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
-      <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
-      <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
-      <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
-      <img src="./asset/logos/Alibaba.svg" alt="" class="brand-logo">
+      <img src="./asset/logos/Amazon.svg" alt="" class="brand-logo">
+      <img src="./asset/logos/Daraz.pk Logo.svg" alt="" class="brand-logo">
+      <img src="./asset/logos/Ebay.svg" alt="" class="brand-logo">
+      <img src="./asset/logos/Rakuten.svg" alt="" class="brand-logo">
+      <img src="./asset/logos/Target.svg" alt="" class="brand-logo">
+      <img src="./asset/logos/Walmart.svg" alt="" class="brand-logo">
+      </div>
     </section>
 
     <section class="popular-collection">
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
+      <div class="container">
+        <div class="grid-container">
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
           </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
+    
+          <div class="product-card">
+            <span class="flex-item">
+              <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
+            </span>
+            <div class="product-details">
+              <h3 class="product-name">Flex Tripod</h3>
+              <p class="product-price">$50.48</p>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating">3.5</span>
+              </div>
+              <span class="Services">
+                <p class="Service">Worldwide shifting available</p>
+                <p class="Service">Buyers protection possible!</p>
+              </span>
+            </div>
+    
+          </div>
         </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
-        </div>
-
-      </div>
-
-      <div class="product-card">
-        <span class="flex-item">
-          <img src="./asset/images/tripod.png" alt="Tripod holding a camera">
-        </span>
-        <div class="product-details">
-          <h3 class="ptoduct-name">Flex Tripod</h3>
-          <p class="product-price">$50.48</p>
-          <div class="product-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <span class="rating">3.5</span>
-          </div>
-          <span class="Services">
-            <p class="Service">Worldwide shifting available</p>
-            <p class="Service">Buyers protection possible!</p>
-          </span>
+        <div class="button">
+          <a href="" class="see-more-btn">See more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </section>
@@ -328,18 +299,20 @@
     </section>
   </main>
 
-  <footer>
-    <h1 class="footer-title">Influencer products</h1>
-    <p class="copyright-info">Copyright &copy; 2020 influencer products <br> All rights reserved</p>
-    <p class="t&c">
-      <a href=""><span class="terms">Terms</span></a> and
-      <a href=""><span class="condition">Condition</span></a>
-    </p>
-    <div class="socil-media">
-      <a href="" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="" class="social-link"><i class="fa-brands fa-youtube"></i></a>
-      <a href="" class="social-link"><i class="fa-brands fa-twitter"></i></a>
-      <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+  <footer class="footer">
+    <div class="container">
+      <h1 class="footer-title">Influencer products</h1>
+      <p class="copyright-info">Copyright &copy; 2020 influencer products <br> All rights reserved</p>
+      <p class="t-and-c">
+        <a href=""><span class="terms">Terms</span></a> and
+        <a href=""><span class="condition">Condition</span></a>
+      </p>
+      <div class="socil-media">
+        <a href="" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+        <a href="" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+      </div>
     </div>
   </footer>
 </body>

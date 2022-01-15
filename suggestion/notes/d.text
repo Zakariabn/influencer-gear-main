@@ -1,0 +1,59 @@
+
+
+/*hero section style end hear*/
+
+
+/*brand section style start hear*/
+.brand {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.brand-logo {
+  width: 100%;
+  max-width: var(--max-width-main);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.brand-logo img {
+  padding: 2rem 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 13%); 
+  border-bottom: 1px solid rgba(0, 0, 0, 13%);
+}
+/*brand section style end hear*/
+
+
+/* popular collection style start form hear */
+.popular-collection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.popular-collection .grid-container {
+  width: 100%;
+  max-width: var(--max-width-main);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+.product-card {
+  justify-self: center;
+}
+
+/*i need to style this section */
+
+
+/*i need to style this section */
+
+/* footer section start frome hear */
+.footer {
+  display: flex;
+  justify-content: center;
+
+}
+.footer .container {
+  width: 100%;
+  max-width: var(--max-width-main);
+  text-align: center;
+}

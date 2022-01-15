@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 3.75rem 1rem 3.125rem;
+}
+.footer .container{
+  text-align: center;
+}
+.footer .footer-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.footer .copyright-info {
+  font-size: .75rem;
+  margin-bottom: 1rem;
+}
+.footer .t-and-c {
+  margin-bottom: 1.5rem;
+}
+.footer .t-and-c a {
+  color: var(--main-color);
+}
+
+.footer .socil-media i {
+  color: var(--white);
+  margin: .5rem;
+  padding: .5rem;
+  border-radius: 16px;
+  background-color: #22203B;
+  transition: color .2s ease;
+}
+.footer .socil-media i:hover {
+  color: var(--main-color);
+}
